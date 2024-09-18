@@ -3623,7 +3623,7 @@ static const AVCodecDescriptor codec_descriptors[] = {
         .type      = AVMEDIA_TYPE_DATA,
         .name      = "ttf",
         .long_name = NULL_IF_CONFIG_SMALL("TrueType font"),
-        .mime_types= MT("application/x-truetype-font", "application/x-font"),
+        .mime_types= MT("application/x-truetype-font", "application/x-font", "font/ttf", "application/x-font-ttf"),
     },
     {
         .id        = AV_CODEC_ID_SCTE_35,
@@ -3663,7 +3663,7 @@ static const AVCodecDescriptor codec_descriptors[] = {
         .type      = AVMEDIA_TYPE_DATA,
         .name      = "otf",
         .long_name = NULL_IF_CONFIG_SMALL("OpenType font"),
-        .mime_types= MT("application/vnd.ms-opentype"),
+        .mime_types= MT("application/vnd.ms-opentype", "font/otf"),
     },
     {
         .id        = AV_CODEC_ID_SMPTE_KLV,
