@@ -824,6 +824,9 @@ static const CodecMime mkv_image_mime_tags[] = {
 };
 
 static const CodecMime mkv_mime_tags[] = {
+    {"font/ttf"                   , AV_CODEC_ID_TTF},
+    {"font/otf"                   , AV_CODEC_ID_OTF},
+    {"application/x-font-ttf"     , AV_CODEC_ID_TTF},
     {"application/x-truetype-font", AV_CODEC_ID_TTF},
     {"application/x-font"         , AV_CODEC_ID_TTF},
     {"application/vnd.ms-opentype", AV_CODEC_ID_OTF},
